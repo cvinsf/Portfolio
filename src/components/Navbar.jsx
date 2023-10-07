@@ -10,7 +10,7 @@ const Navbar = () => {
         <h2 className="text-3xl font-bold">
           Web<span className="text-emerald-600">Dev</span>
         </h2>
-        <div className="flex gap-x3">
+        <div className="flex gap-x-3">
           {links.map((link) => {
             const { id, href, text } = link;
             return (
