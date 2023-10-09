@@ -1,4 +1,7 @@
 import { nanoid } from "nanoid";
+import axoltol from '../assets/axolotl_beats.jpg'
+import reinforce from '../assets/reinforce.jpg'
+import denogres from '../assets/denogres.png'
 import {
   FaHtml5,
   FaJs,
@@ -7,13 +10,13 @@ import {
   FaPython,
   FaAws,
 } from "react-icons/fa";
-import postgresql from '../assets/postgresql.svg'
+
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
-  { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
+  { id: nanoid(), href: "#about", text: "about" },
 ];
 
 export const skills = [
@@ -27,57 +30,60 @@ export const skills = [
     id: nanoid(),
     title: "Javascript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Proficient in JavaScript, adept at creating interactive web solutions prioritizing user-centric design and flawless functionality.",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Highly skilled in React, with a track record of designing and implementing seamless front-end experiences rooted in a component-focused framework.",
   },
   {
     id: nanoid(),
     title: "Node",
     icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Proven proficiency in Node.js, adept at developing robust and efficient server-side applications, leveraging its asynchronous capabilities for high-concurrency solutions.",
   },
   {
     id: nanoid(),
     title: "Python",
     icon: <FaPython className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Deep-seated knowledge in Python, specializing in crafting reliable backend infrastructures and dynamic web applications with a keen eye for performance and scalability.",
   },
   {
     id: nanoid(),
     title: "AWS",
     icon: <FaAws className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Broad experience with AWS, consistently harnessing its suite of services to deliver secure, cost-effective, and innovative cloud-based solutions tailored to business needs.",
   },
 ];
 
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: axoltol,
+    url: "https://github.com/cat-snake-52/axolotl-beats",
+    github: "https://github.com/cat-snake-52/axolotl-beats",
+    title: "Axolotl-Beats 2.0",
+    tech: "React.js, Node.js, Express, Spotify API, Webpack",
+    text: "Axolotl Beats allows users to interact with the Spotify API to create extremely customized 'dynamic' playlists.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: reinforce,
+    url: "https://github.com/TaskCorp/ReinForce/",
+    github: "https://github.com/TaskCorp/ReinForce",
+    title: "ReInForce",
+    tech: "React.js, Redux, Node.js, TypeScript, PostGreSQL, Webpack",
+    text: "ReinForce is a task monitor that encourages skill reinforcement.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "third project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: denogres,
+    url: "https://github.com/open-source-labs/DenoGres",
+    github: "https://github.com/open-source-labs/DenoGres",
+    title: "DenoGres",
+    tech: "Fresh.js, Deno, TypeScript, PostGreSQL, Electron",
+    text: "PostGreSQL + Deno. An open source ORM for the Deno Framework. 200+ stars on GitHub!",
   },
 ];
