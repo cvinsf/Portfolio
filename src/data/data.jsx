@@ -1,5 +1,13 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaJs,
+  FaNodeJs,
+  FaReact,
+  FaPython,
+  FaAws,
+} from "react-icons/fa";
+import postgresql from '../assets/postgresql.svg'
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -11,7 +19,7 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
+    title: "HTML & CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     text: "Masterfully versed in HTML & CSS, designing intuitive and visually compelling websites that prioritize user experience.",
   },
@@ -25,6 +33,24 @@ export const skills = [
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Node",
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Python",
+    icon: <FaPython className="h-16 w-16 text-emerald-500" />,
+    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "AWS",
+    icon: <FaAws className="h-16 w-16 text-emerald-500" />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
