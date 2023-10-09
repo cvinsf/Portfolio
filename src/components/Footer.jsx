@@ -1,6 +1,4 @@
-import React from "react";
-
-function Footer() {
+const Footer = ()=> {
   return (
     <div className="py-20 text-center">
       <div className="container max-w-screen-lg mx-auto">

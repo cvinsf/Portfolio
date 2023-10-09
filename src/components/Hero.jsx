@@ -1,12 +1,8 @@
 import heroImg from "../assets/hero.svg";
 import {
-  FaGithubAlt,
   FaGithubSquare,
-  FaLink,
-  FaLinkedin,
   FaLinkedinIn,
   FaYoutube,
-  FaYoutubeSquare,
 } from "react-icons/fa";
 
 const Hero = () => {
